@@ -1,0 +1,21 @@
+[project]
+name = "badge_3322"
+version = "0.0.1"
+description = "Case code for badge 3322 Time Series Forecasts"
+authors = [{ name = "Femke van Engen" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel",
+    "matplotlib>=3.10.1",
+    "numpy<2",
+    "pandas>=2.2.3",
+    "pickle-mixin>=1.0.2",
+    "pmdarima>=2.0.4",
+    "python-dateutil>=2.9.0.post0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+    "tbats>=1.1.3",
+]
